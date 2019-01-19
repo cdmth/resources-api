@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ResourceTestApiApplication<resource-api>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.codemoth.resourcetestapi.ResourceTestApiApplication",
+      "projectName": "resource-api",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ResourceTestApiApplication<resource-test-api>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.codemoth.resourcetestapi.ResourceTestApiApplication",
+      "projectName": "resource-test-api",
+      "args": ""
+    }
+  ]
+}
