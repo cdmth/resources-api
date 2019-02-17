@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages={"com.codemoth.resourcetestapi"})
-public class ResourceTestApiApplication {
+public class ResourceApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ResourceTestApiApplication.class, args);
+		SpringApplication.run(ResourceApiApplication.class, args);
 	}
 
 }
